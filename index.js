@@ -50,19 +50,24 @@ const addApp = (app) => {
       addApp(_app);
 
       // SIMILAR APPS SEARCH START
-      let similar_apps = await gplay.similar({
-        appId: _app.appId,
-        num: 5,
-      });
-
-      for (const similar_app of similar_apps) {
-        similar_app.gotFrom = _app.appId;
-        addApp(similar_app);
+      try{
+        // to handle cluster error file:///google-play-scraper/lib/similar.js:72
+        let similar_apps = await gplay.similar({
+          appId: _app.appId,
+          num: 5,
+        });
+  
+        for (const similar_app of similar_apps) {
+          similar_app.gotFrom = _app.appId;
+          addApp(similar_app);
+        }
+  
+        console.log(
+          `Found ${similar_apps.length} similar apps for ${_app.appId}`
+        );
+      }catch(e){
+        console.log(`Error: ${e.message}`);
       }
-
-      console.log(
-        `Found ${similar_apps.length} similar apps for ${_app.appId}`
-      );
       // SIMILAR APPS SEARCH END
     }
     // APPS WITH SAME NAMING ENDS
