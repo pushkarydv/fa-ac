@@ -2,6 +2,13 @@ import gplay from 'google-play-scraper';
 import { styledLogger } from './utils/functions.js';
 import fs from 'fs';
 
+const apps = new Map();
+const addApp = (app) => {
+  if (!apps.has(app.appId)) {
+    apps.set(app.appId, app);
+  }
+};
+
 (async () => {
   const currentHour = new Date().getHours();
   if (currentHour < 12) {
@@ -12,14 +19,15 @@ import fs from 'fs';
     styledLogger('Good Evening!');
   }
 
+  // TARGET FINANCE CATEGORY, TOP FREE
   const listApps = await gplay.list({
     category: gplay.category.FINANCE,
     collection: gplay.collection.TOP_FREE,
-    num: 100,
+    num: 5,
   });
   styledLogger(`Init w/ ${listApps.length} apps`);
 
-  const sameConventionApps = [];
+  // LOOP OVER CATEGORY STARTS
 
   for (const app of listApps) {
     let selectedApp = app;
@@ -31,25 +39,42 @@ import fs from 'fs';
       price: 'free',
     });
 
-    if (apps_w_sama_naming.length > 0) {
-      sameConventionApps.push({
-        appId: selectedApp.appId,
-        appName: selectedApp.title,
-        sameConventionApps: apps_w_sama_naming,
+    console.log(
+      `Found ${apps_w_sama_naming.length} apps with same naming as ${selectedApp.appId} : ${selectedApp.title}`
+    );
+
+    // APPS WITH SAME NAMING STARTS
+    for (const _app of apps_w_sama_naming) {
+      // track which app led to this app
+      _app.gotFrom = selectedApp.appId;
+      addApp(_app);
+
+      // SIMILAR APPS SEARCH START
+      let similar_apps = await gplay.similar({
+        appId: _app.appId,
+        num: 5,
       });
 
+      for (const similar_app of similar_apps) {
+        similar_app.gotFrom = _app.appId;
+        addApp(similar_app);
+      }
+
       console.log(
-        `Found ${apps_w_sama_naming.length} apps w/ ${selectedApp.title} inside name`
+        `Found ${similar_apps.length} similar apps for ${_app.appId}`
       );
+      // SIMILAR APPS SEARCH END
     }
+    // APPS WITH SAME NAMING ENDS
   }
+  // LOOP OVER CATEGORY ENDS
 
   fs.writeFileSync(
-    `./lists/${new Date()
-      .toLocaleDateString()
-      .replace(/\//g, '-')}-sameConventionApps.json`,
-    JSON.stringify(sameConventionApps, null, 2)
+    `./lists/${new Date().toLocaleDateString().replace(/\//g, '-')}-apps.json`,
+    JSON.stringify(Object.fromEntries(apps), null, 2)
   );
+
+  styledLogger(`Found ${apps.size} apps in total`);
 
   styledLogger('Done!');
 })();

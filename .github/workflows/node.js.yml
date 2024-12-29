@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'lists/*-sameConventionApps.json'
+      - 'lists/*-apps.json'
 
 jobs:
   build:
@@ -20,15 +20,15 @@ jobs:
           node-version: '20.x'
       - run: npm ci
       - run: npm start
-      - name: Commit and push sameConventionApps.json
+      - name: Commit and push apps.json
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add lists/*-sameConventionApps.json
-          git commit -m 'Add sameConventionApps.json [skip ci]'
+          git add lists/*-apps.json
+          git commit -m 'Add apps.json [skip ci]'
           git push
-      - name: Upload sameConventionApps.json
+      - name: Upload apps.json
         uses: actions/upload-artifact@v3
         with:
-          name: same-convention-apps
-          path: lists/*-sameConventionApps.json
+          name: apps-file
+          path: lists/*-apps.json
