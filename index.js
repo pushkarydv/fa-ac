@@ -23,7 +23,7 @@ const addApp = (app) => {
   const listApps = await gplay.list({
     category: gplay.category.FINANCE,
     collection: gplay.collection.TOP_FREE,
-    num: 5,
+    num: 100,
   });
   styledLogger(`Init w/ ${listApps.length} apps`);
 
