@@ -44,9 +44,6 @@ import fs from 'fs';
     }
   }
 
-  console.log(sameConventionApps);
-
-  // Save sameConventionApps to a JSON file
   fs.writeFileSync(
     `./lists/${new Date()
       .toLocaleDateString()
