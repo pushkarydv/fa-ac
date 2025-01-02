@@ -974,20 +974,6 @@
       "gotFrom": "com.paytm.business"
     },
     {
-      "title": "Airtel Payments Bank: Merchant",
-      "appId": "com.apbl.merchant",
-      "url": "https://play.google.com/work/apps/details?id=com.apbl.merchant",
-      "icon": "https://play-lh.googleusercontent.com/mjJ4u1N4DlTsooMsnZtcYoKFWI227xGpyAk6tZg2xb1eH-FLh2KCr55Bw8CjmJ9d8A",
-      "developer": "Airtel",
-      "developerId": "5602309161373665584",
-      "price": null,
-      "free": false,
-      "summary": "Accept UPI payments and scale up your business with Airtel Payments Bank.",
-      "scoreText": "2.8",
-      "score": 2.8333333,
-      "gotFrom": "com.paytm.business"
-    },
-    {
       "title": "Razorpay Payments for Business",
       "appId": "com.razorpay.payments.app",
       "url": "https://play.google.com/work/apps/details?id=com.razorpay.payments.app",
@@ -999,6 +985,20 @@
       "summary": "Accept &amp; track payments through links via netbanking, cards, UPI, wallets &amp; more",
       "scoreText": "3.8",
       "score": 3.8,
+      "gotFrom": "com.paytm.business"
+    },
+    {
+      "title": "Airtel Payments Bank: Merchant",
+      "appId": "com.apbl.merchant",
+      "url": "https://play.google.com/work/apps/details?id=com.apbl.merchant",
+      "icon": "https://play-lh.googleusercontent.com/mjJ4u1N4DlTsooMsnZtcYoKFWI227xGpyAk6tZg2xb1eH-FLh2KCr55Bw8CjmJ9d8A",
+      "developer": "Airtel",
+      "developerId": "5602309161373665584",
+      "price": null,
+      "free": false,
+      "summary": "Accept UPI payments and scale up your business with Airtel Payments Bank.",
+      "scoreText": "2.8",
+      "score": 2.8333333,
       "gotFrom": "com.paytm.business"
     },
     {
@@ -1834,18 +1834,6 @@
       "gotFrom": "com.smartspends"
     },
     {
-      "title": "ETHospitalityWorld from Econom",
-      "appId": "com.ethospitalityworld",
-      "url": "https://play.google.com/store/apps/details?id=com.ethospitalityworld",
-      "icon": "https://play-lh.googleusercontent.com/-3KN8VESM8eDUbkunUX2eci_UTsjAnKHvObMsVB-HyM4gfte8_hG6LQB_Y1LHecH5FA",
-      "developer": "TIL (Times Internet Limited)",
-      "currency": "USD",
-      "price": 0,
-      "free": true,
-      "summary": "Find the latest marketing &amp; advertising Insight, News &amp; Articles from all top sources for the Indian Hospitality industry on ET Hospitality.",
-      "gotFrom": "com.smartspends"
-    },
-    {
       "title": "ETHRWorldME",
       "appId": "com.til.hrme",
       "url": "https://play.google.com/store/apps/details?id=com.til.hrme",
@@ -1855,6 +1843,18 @@
       "price": 0,
       "free": true,
       "summary": "ETHRWorldME tracks all the media agencies focusing on the HR sector and tracks the most relevant and important news and analysis on the industry.<br>Through its features such as articles and blogs, it covers different aspects of the industry in one single platform.<br><br>ETHRWorldME sends out free daily newsletters to its subscribers - summarizing day’s essential news, reports and analysis.<br><br>We are an integrated global media platform that aims to unite the world of work community and enable their learning through first-hand information and insights from the world of people and work, catering especially to the EMEA region comprising Europe, The Middle East, and Africa.",
+      "gotFrom": "com.smartspends"
+    },
+    {
+      "title": "ETHospitalityWorld from Econom",
+      "appId": "com.ethospitalityworld",
+      "url": "https://play.google.com/store/apps/details?id=com.ethospitalityworld",
+      "icon": "https://play-lh.googleusercontent.com/-3KN8VESM8eDUbkunUX2eci_UTsjAnKHvObMsVB-HyM4gfte8_hG6LQB_Y1LHecH5FA",
+      "developer": "TIL (Times Internet Limited)",
+      "currency": "USD",
+      "price": 0,
+      "free": true,
+      "summary": "Find the latest marketing &amp; advertising Insight, News &amp; Articles from all top sources for the Indian Hospitality industry on ET Hospitality.",
       "gotFrom": "com.smartspends"
     },
     {
@@ -4143,21 +4143,6 @@
       "gotFrom": "com.google.android.apps.nbu.paisa.user"
     },
     {
-      "title": "Google Photos",
-      "appId": "com.google.android.apps.photos",
-      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
-      "icon": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
-      "developer": "Google LLC",
-      "developerId": "5700313618786177705",
-      "priceText": "FREE",
-      "price": 0,
-      "free": true,
-      "summary": "The home for your memories. Relive, share, and organize your photos.",
-      "scoreText": "4.4",
-      "score": 4.4433684,
-      "gotFrom": "com.google.android.apps.nbu.paisa.user"
-    },
-    {
       "title": "Google Chat",
       "appId": "com.google.android.apps.dynamite",
       "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite",
@@ -4170,6 +4155,21 @@
       "summary": "Collaborate seamlessly with Google Chat, part of Google Workspace",
       "scoreText": "4.4",
       "score": 4.4319167,
+      "gotFrom": "com.google.android.apps.nbu.paisa.user"
+    },
+    {
+      "title": "Google Photos",
+      "appId": "com.google.android.apps.photos",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+      "icon": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA",
+      "developer": "Google LLC",
+      "developerId": "5700313618786177705",
+      "priceText": "FREE",
+      "price": 0,
+      "free": true,
+      "summary": "The home for your memories. Relive, share, and organize your photos.",
+      "scoreText": "4.4",
+      "score": 4.4433684,
       "gotFrom": "com.google.android.apps.nbu.paisa.user"
     },
     {
@@ -7652,20 +7652,6 @@
       "gotFrom": "com.sbi.upi"
     },
     {
-      "title": "YONO SBI Bangladesh",
-      "appId": "com.YONOBDMobileApp",
-      "url": "https://play.google.com/store/apps/details?id=com.YONOBDMobileApp",
-      "icon": "https://play-lh.googleusercontent.com/8AhCEttqQh_VLnxYLgwM5dMlrlfA6kdY-QQAP5jLW6uncIS_8Jam4BuBplT51yASqUKr",
-      "developer": "State Bank of India",
-      "currency": "USD",
-      "price": 0,
-      "free": true,
-      "summary": "About the app<br><br>With a strong focus on customer convenience our latest mobile banking offering, YONO SBI Bangladesh is an application for our retail Internet banking users. Download the app now and enjoy the revamped banking experience with attractive features such as One View, India remittance etc. Kindly use only Google Play Store to download this application.<br><br>Users can conveniently access below features in YONO SBI Bangladesh<br><br>One View: No need to keep two separate apps to view your Indian and Bangladesh accounts. Use the one view feature to view all your SBI accounts in one place now!<br><br>Instant remittance: How would you feel if you sent money home, and by the time you called them they had already received it? Experience this feeling with our instant remittance feature.<br><br>All you need<br><br>A smart phone with android operating system<br><br>Internet Connectivity",
-      "scoreText": "0.0",
-      "score": 0,
-      "gotFrom": "com.sbi.upi"
-    },
-    {
       "title": "YONO SBI Bahrain",
       "appId": "com.YONOBHMobileApp",
       "url": "https://play.google.com/store/apps/details?id=com.YONOBHMobileApp",
@@ -7675,6 +7661,20 @@
       "price": 0,
       "free": true,
       "summary": "About the app <br><br>With a strong focus on customer convenience our latest mobile banking offering, YONO SBI Bahrain is an application for our retail Internet banking users. Download the app now and enjoy the revamped banking experience with attractive features such as Fund Transfer (Fawri/Fawri+), Fund transfer within SBI, TD for existing customer, RD for existing customer, India remittance, Spend Analyzer etc. Kindly use only Google Play Store to download this application.   <br><br>Users can conveniently access below features in YONO SBI Bahrain <br><br>India Remittance: Customer may initiate fund transfer, enable standing instructions, schedule transaction to any internal/external accounts through yono.  <br><br>Spend Analyzer: Customer clicks on “Spend Analysis” to see analysis of customer spends in different categories, displayed as a multi-color charts. Colors represent different categories of spends viz. food, bills, transport etc. Customer can view weekly, monthly and quarterly spend analysis. <br><br>All you need <br><br>A smart phone with android operating system <br><br>Internet Connectivity",
+      "scoreText": "0.0",
+      "score": 0,
+      "gotFrom": "com.sbi.upi"
+    },
+    {
+      "title": "YONO SBI Bangladesh",
+      "appId": "com.YONOBDMobileApp",
+      "url": "https://play.google.com/store/apps/details?id=com.YONOBDMobileApp",
+      "icon": "https://play-lh.googleusercontent.com/8AhCEttqQh_VLnxYLgwM5dMlrlfA6kdY-QQAP5jLW6uncIS_8Jam4BuBplT51yASqUKr",
+      "developer": "State Bank of India",
+      "currency": "USD",
+      "price": 0,
+      "free": true,
+      "summary": "About the app<br><br>With a strong focus on customer convenience our latest mobile banking offering, YONO SBI Bangladesh is an application for our retail Internet banking users. Download the app now and enjoy the revamped banking experience with attractive features such as One View, India remittance etc. Kindly use only Google Play Store to download this application.<br><br>Users can conveniently access below features in YONO SBI Bangladesh<br><br>One View: No need to keep two separate apps to view your Indian and Bangladesh accounts. Use the one view feature to view all your SBI accounts in one place now!<br><br>Instant remittance: How would you feel if you sent money home, and by the time you called them they had already received it? Experience this feeling with our instant remittance feature.<br><br>All you need<br><br>A smart phone with android operating system<br><br>Internet Connectivity",
       "scoreText": "0.0",
       "score": 0,
       "gotFrom": "com.sbi.upi"
@@ -7748,6 +7748,46 @@
       "gotFrom": "com.bfl.merchant"
     },
     {
+      "title": "OneFor Money App",
+      "appId": "com.oneforholding.client",
+      "url": "https://play.google.com/store/apps/details?id=com.oneforholding.client",
+      "icon": "https://play-lh.googleusercontent.com/gu-2Ywaucb9mHb7d3vSJgPW0XrvljEl2_fvtpPqZ_m7lewQK4haiavtkePwPd-QoUQ",
+      "developer": "OneFor Holding GmbH",
+      "currency": "USD",
+      "price": 0,
+      "free": true,
+      "summary": "*SEND, REQUEST and PERSONALIZE YOUR TRANSFERS.<br><br>Send or request money to or from your contacts and add a personal touch to each transfer by sharing a heartfelt note or a cherished photo. Money travels between OneFor accounts in just 0.2 seconds.<br><br>*PAY AND SHOP. ANYTIME.ANYWHERE.<br><br>Your OneFor Mastercard allows you to execute worldwide payments instantly and securely with just a simple swipe, as well as make cash withdrawals directly from ATMs anywhere.<br><br>*ONE FOR THE FAMILY.<br><br>Borderless family account: Connect with your family members outside and within the EU to open their own OneFor accounts. Each of them receives fee free Mastercard and eWallet.<br><br>Junior account: Create a family circle, by adding up to five children to your account and manage every penny in one sleek and easy-to-use app. They will get fee-free Junior Mastercard combined with mobile wallet.<br><br>AFFORDABLE: We employ transparent &amp; affordable pricing methodologies.<br><br>ALWAYS THERE: We offer 24/7 human customer support in app to resolve any issues that you may encounter.<br><br>SECURE: Your financial security is our priority. OneFor ensures protection with Mastercard Secure, data encryption, and 24/7 fraud monitoring.",
+      "scoreText": "4.6",
+      "score": 4.638298,
+      "gotFrom": "com.razorpay.payments.app"
+    },
+    {
+      "title": "DokPro Business",
+      "appId": "ch.pse_solutions.dokprobusiness",
+      "url": "https://play.google.com/store/apps/details?id=ch.pse_solutions.dokprobusiness",
+      "icon": "https://play-lh.googleusercontent.com/y4wFTDqr-6oNVrcXYYnStbeSu171Lp8JScJEBz066W0HPASOq2JHfTUljBRTqiikdzQ",
+      "developer": "PSE Solutions GmbH",
+      "currency": "USD",
+      "price": 0,
+      "free": true,
+      "summary": "Oh not again... a protocol! Are you tired of always having to invest a lot of time in creating protocols and what&#39;s even worse: formatting?<br><br>With the DokPro Business app, you can quickly create a clear, high-quality and revision-controlled protocol on your smartphone, tablet or computer. The protocol is automatically formatted and receives a document number including versioning. With DokPro Business you are adding a system and structure to the logging process and your company or association. You have a multitude of protocol templates at your disposal (e.g., general meeting, team meeting, working session, etc.)<br><br>With just one click, you can generate the report in a PDF and send it directly to the predefined recipients by e-mail. Also add whiteboard sketches and/or notes by clicking on the protocol directly in the relevant agenda.<br><br>------------<br><br>REVISION-SAFE PROTOCOLS<br>Each log is assigned a unique document number and version. The protocol changes are version-controlled and documented.<br><br>TEXT INPUT BY DICTATION FUNCTION<br>The text can be entered via dictation, so typing is not necessary.<br><br>DRAG &amp; DROP<br>Agenda items can be easily sorted by drag &amp; drop.<br><br>PREPARATION/AGENDA ITEMS<br>The agenda items can be determined in advance. This way, all participants are informed accordingly and can prepare themselves.<br><br>LISTING OF PARTICIPANTS<br>The contact details of the participants are taken from the address book and new contacts can be easily added.<br><br>INVITATION TO PARTICIPANTS<br>The invitations are sent directly from the app to all registered participants.<br><br>LOCATION, DATE &amp; TIME<br>Location, date and time are easily recorded so that all participants are properly informed.<br><br>DURING THE SESSION<br>Log entries and photo documentation can be captured during the session with the app and added directly to the log.<br><br>SHIPPING PROTOCOL<br>The protocol is then sent in pdf format directly to all selected recipients via the app.<br><br>SEARCH FUNCTION<br>Searching for logs, documents or keywords is an easy process.<br><br>TEMPLATES<br>There is a large selection of different templates available. This eliminates the formatting and the protocols are consistent.<br><br>LOGO IN TEMPLATES (Premium)<br>In the settings you can upload your own predefined logo, which then appears on all of your logs.<br><br>LOGO IN PROJECT TEMPLATE (Premium)<br>A specific logo for each project can be selected.<br><br>LANGUAGES<br>Five different languages ​​are available (de, en, fr, it, es).",
+      "scoreText": "0.0",
+      "score": 0,
+      "gotFrom": "com.razorpay.payments.app"
+    },
+    {
+      "title": "LoadNow",
+      "appId": "com.loadnow.loadnowapp",
+      "url": "https://play.google.com/store/apps/details?id=com.loadnow.loadnowapp",
+      "icon": "https://play-lh.googleusercontent.com/Jk-3_i9R6X8RVdyBdOgYdlMP_bb72i4WaaKmYapZ-st76jaD3CeetaJaVeb_C3Zva2Q",
+      "developer": "Forza Logistics Techlabs Pvt. Ltd.",
+      "currency": "USD",
+      "price": 0,
+      "free": true,
+      "summary": "LoadNow empowers you to achieve following goals – <br> <br>1. Ship more and ship better with one-stop-solution: Deliver any type of loads across the country through fully integrated logistics platform<br>2. Optimise shipping cost and drive efficiency: Choose bids from a range of trusted and KYC verified suppliers with complete user privacy <br>3. Enhance the overall experience of your end customer: Get automated &amp; live updates on deliveries for driving superior customer experience<br> <br>LoadNow is committed to the vision of Atmanirbhar Bharat <br>LoadNow is made in India &amp; made for India app which offers unique proposition – <br> <br>A) 1 Click for complete control of orders: Get full control of your single or bulk orders at all times<br>B) Leverage network of 100% KYC verified suppliers: Avail services from 10,000+ trusted and genuine suppliers<br>C) 3 Million+ shipments successfully delivered: Experienced and Proven Team of Loadnow<br>D) 100% Transparent and Best Rates: No hidden charges, pay as you ship for any type of load <br>E) Deliver to over 500+ cities across India: Deep and wide service network for your shipments<br> <br>LoadNow app is quick, easy and simple to use. Download the LoadNow app and get started – <br> <br>1) Download and install the app <br>2) Sign up with your details <br>3) Securely login through OTP on mobile<br>4) Place your shipping order to get bids from verified suppliers<br>5) Choose the right price, right supplier from the bids and start shipping",
+      "gotFrom": "com.razorpay.payments.app"
+    },
+    {
       "title": "Airtel Thanks: Recharge & Bank",
       "appId": "com.myairtelapp",
       "url": "https://play.google.com/store/apps/details?id=com.myairtelapp",
@@ -7800,46 +7840,6 @@
       "scoreText": "0.0",
       "score": 0,
       "gotFrom": "com.apbl.merchant"
-    },
-    {
-      "title": "OneFor Money App",
-      "appId": "com.oneforholding.client",
-      "url": "https://play.google.com/store/apps/details?id=com.oneforholding.client",
-      "icon": "https://play-lh.googleusercontent.com/gu-2Ywaucb9mHb7d3vSJgPW0XrvljEl2_fvtpPqZ_m7lewQK4haiavtkePwPd-QoUQ",
-      "developer": "OneFor Holding GmbH",
-      "currency": "USD",
-      "price": 0,
-      "free": true,
-      "summary": "*SEND, REQUEST and PERSONALIZE YOUR TRANSFERS.<br><br>Send or request money to or from your contacts and add a personal touch to each transfer by sharing a heartfelt note or a cherished photo. Money travels between OneFor accounts in just 0.2 seconds.<br><br>*PAY AND SHOP. ANYTIME.ANYWHERE.<br><br>Your OneFor Mastercard allows you to execute worldwide payments instantly and securely with just a simple swipe, as well as make cash withdrawals directly from ATMs anywhere.<br><br>*ONE FOR THE FAMILY.<br><br>Borderless family account: Connect with your family members outside and within the EU to open their own OneFor accounts. Each of them receives fee free Mastercard and eWallet.<br><br>Junior account: Create a family circle, by adding up to five children to your account and manage every penny in one sleek and easy-to-use app. They will get fee-free Junior Mastercard combined with mobile wallet.<br><br>AFFORDABLE: We employ transparent &amp; affordable pricing methodologies.<br><br>ALWAYS THERE: We offer 24/7 human customer support in app to resolve any issues that you may encounter.<br><br>SECURE: Your financial security is our priority. OneFor ensures protection with Mastercard Secure, data encryption, and 24/7 fraud monitoring.",
-      "scoreText": "4.6",
-      "score": 4.638298,
-      "gotFrom": "com.razorpay.payments.app"
-    },
-    {
-      "title": "DokPro Business",
-      "appId": "ch.pse_solutions.dokprobusiness",
-      "url": "https://play.google.com/store/apps/details?id=ch.pse_solutions.dokprobusiness",
-      "icon": "https://play-lh.googleusercontent.com/y4wFTDqr-6oNVrcXYYnStbeSu171Lp8JScJEBz066W0HPASOq2JHfTUljBRTqiikdzQ",
-      "developer": "PSE Solutions GmbH",
-      "currency": "USD",
-      "price": 0,
-      "free": true,
-      "summary": "Oh not again... a protocol! Are you tired of always having to invest a lot of time in creating protocols and what&#39;s even worse: formatting?<br><br>With the DokPro Business app, you can quickly create a clear, high-quality and revision-controlled protocol on your smartphone, tablet or computer. The protocol is automatically formatted and receives a document number including versioning. With DokPro Business you are adding a system and structure to the logging process and your company or association. You have a multitude of protocol templates at your disposal (e.g., general meeting, team meeting, working session, etc.)<br><br>With just one click, you can generate the report in a PDF and send it directly to the predefined recipients by e-mail. Also add whiteboard sketches and/or notes by clicking on the protocol directly in the relevant agenda.<br><br>------------<br><br>REVISION-SAFE PROTOCOLS<br>Each log is assigned a unique document number and version. The protocol changes are version-controlled and documented.<br><br>TEXT INPUT BY DICTATION FUNCTION<br>The text can be entered via dictation, so typing is not necessary.<br><br>DRAG &amp; DROP<br>Agenda items can be easily sorted by drag &amp; drop.<br><br>PREPARATION/AGENDA ITEMS<br>The agenda items can be determined in advance. This way, all participants are informed accordingly and can prepare themselves.<br><br>LISTING OF PARTICIPANTS<br>The contact details of the participants are taken from the address book and new contacts can be easily added.<br><br>INVITATION TO PARTICIPANTS<br>The invitations are sent directly from the app to all registered participants.<br><br>LOCATION, DATE &amp; TIME<br>Location, date and time are easily recorded so that all participants are properly informed.<br><br>DURING THE SESSION<br>Log entries and photo documentation can be captured during the session with the app and added directly to the log.<br><br>SHIPPING PROTOCOL<br>The protocol is then sent in pdf format directly to all selected recipients via the app.<br><br>SEARCH FUNCTION<br>Searching for logs, documents or keywords is an easy process.<br><br>TEMPLATES<br>There is a large selection of different templates available. This eliminates the formatting and the protocols are consistent.<br><br>LOGO IN TEMPLATES (Premium)<br>In the settings you can upload your own predefined logo, which then appears on all of your logs.<br><br>LOGO IN PROJECT TEMPLATE (Premium)<br>A specific logo for each project can be selected.<br><br>LANGUAGES<br>Five different languages ​​are available (de, en, fr, it, es).",
-      "scoreText": "0.0",
-      "score": 0,
-      "gotFrom": "com.razorpay.payments.app"
-    },
-    {
-      "title": "LoadNow",
-      "appId": "com.loadnow.loadnowapp",
-      "url": "https://play.google.com/store/apps/details?id=com.loadnow.loadnowapp",
-      "icon": "https://play-lh.googleusercontent.com/Jk-3_i9R6X8RVdyBdOgYdlMP_bb72i4WaaKmYapZ-st76jaD3CeetaJaVeb_C3Zva2Q",
-      "developer": "Forza Logistics Techlabs Pvt. Ltd.",
-      "currency": "USD",
-      "price": 0,
-      "free": true,
-      "summary": "LoadNow empowers you to achieve following goals – <br> <br>1. Ship more and ship better with one-stop-solution: Deliver any type of loads across the country through fully integrated logistics platform<br>2. Optimise shipping cost and drive efficiency: Choose bids from a range of trusted and KYC verified suppliers with complete user privacy <br>3. Enhance the overall experience of your end customer: Get automated &amp; live updates on deliveries for driving superior customer experience<br> <br>LoadNow is committed to the vision of Atmanirbhar Bharat <br>LoadNow is made in India &amp; made for India app which offers unique proposition – <br> <br>A) 1 Click for complete control of orders: Get full control of your single or bulk orders at all times<br>B) Leverage network of 100% KYC verified suppliers: Avail services from 10,000+ trusted and genuine suppliers<br>C) 3 Million+ shipments successfully delivered: Experienced and Proven Team of Loadnow<br>D) 100% Transparent and Best Rates: No hidden charges, pay as you ship for any type of load <br>E) Deliver to over 500+ cities across India: Deep and wide service network for your shipments<br> <br>LoadNow app is quick, easy and simple to use. Download the LoadNow app and get started – <br> <br>1) Download and install the app <br>2) Sign up with your details <br>3) Securely login through OTP on mobile<br>4) Place your shipping order to get bids from verified suppliers<br>5) Choose the right price, right supplier from the bids and start shipping",
-      "gotFrom": "com.razorpay.payments.app"
     },
     {
       "title": "HSBC HK Mobile Banking",
