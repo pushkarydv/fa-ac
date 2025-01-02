@@ -1,5 +1,6 @@
 import { greet, log, logStyled } from './utils/logger.js';
 import { scrapeApps } from './scraper.js';
+import fs from 'fs';
 
 const main = async () => {
   try {

@@ -28,7 +28,10 @@ export const scrapeApps = async () => {
     logStyled(`[INFO] main apps to fecthed : ${mainApps.size}`);
 
     logStyled(`[INFO] Searching for apps with similar names...`);
-    for (const [appId, appObject] of mainApps) {
+    // Create a copy of mainApps to avoid modifying the original map
+    let mainAppCopy = new Map(mainApps);
+    logStyled(`mainAppCopy size: ${mainAppCopy.size}`);
+    for (const [appId, appObject] of mainAppCopy) {
       const similarNameApps = await searchSimilarNames(appObject.title);
       log(
         `Found ${similarNameApps.length} apps with similar name to ${appObject.title}`
@@ -36,12 +39,13 @@ export const scrapeApps = async () => {
 
       for (const app of similarNameApps) {
         app.gotFrom = appId;
-        addApp(similarApps, app);
+        addApp(mainApps, app);
       }
     }
+    logStyled(`mainApps size: ${mainApps.size}`);
 
-    logStyled(`[INFO] Searching similar apps for main apps...`);
-    for (const appId of apps) {
+    logStyled(`[INFO] Searching similar apps...`);
+    for (const  [appId, appObject] of mainApps) {
       const relatedApps = await fetchSimilarApps(appId);
       log(`Found ${relatedApps.length} similar apps for ${appId}`);
 
@@ -50,24 +54,7 @@ export const scrapeApps = async () => {
         addApp(similarApps, app);
       }
     }
-
-    logStyled(
-      `[INFO] Searching similar apps for 'apps with similar name to main apps'...`
-    );
-    for (const [appId] of similarApps) {
-      const relatedApps = await fetchSimilarApps(appId);
-      log(`Found ${relatedApps.length} similar apps for ${appId}`);
-
-      for (const app of relatedApps) {
-        app.gotFrom = appId;
-        addApp(similarApps, app);
-      }
-    }
-
-    logStyled(
-      `[INFO] Scraping completed successfully, simillar apps fetched: ${similarApps.size}`
-    );
-
+    
     return {
       mainAppsCount: mainApps.size,
       similarAppsCount: similarApps.size,
