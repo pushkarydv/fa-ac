@@ -25,7 +25,7 @@ const addApp = (app) => {
   for (const app of listApps) {
     let selectedApp = app;
 
-    let apps_w_sama_naming = await gplay.search({
+    let apps_w_same_naming = await gplay.search({
       term: selectedApp.title,
       throttle: 10,
       num: 20,
@@ -33,11 +33,11 @@ const addApp = (app) => {
     });
 
     console.log(
-      `Found ${apps_w_sama_naming.length} apps with same naming as ${selectedApp.appId} : ${selectedApp.title}`
+      `Found ${apps_w_same_naming.length} apps with same naming as ${selectedApp.appId} : ${selectedApp.title}`
     );
 
     // APPS WITH SAME NAMING STARTS
-    for (const _app of apps_w_sama_naming) {
+    for (const _app of apps_w_same_naming) {
       // track which app led to this app
       _app.gotFrom = selectedApp.appId;
       addApp(_app);
