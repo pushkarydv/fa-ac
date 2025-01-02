@@ -55,6 +55,9 @@ export const scrapeApps = async () => {
       }
     }
     
+    logStyled(`[INFO] mainApps size: ${mainApps.size}`);
+    logStyled(`[INFO] similarApps size: ${similarApps.size}`);
+
     return {
       mainAppsCount: mainApps.size,
       similarAppsCount: similarApps.size,
