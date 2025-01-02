@@ -32,8 +32,7 @@ export const searchSimilarNames = async (title) => {
 export const fetchSimilarApps = async (appId) => {
   try {
     const apps = await gplay.similar({
-      appId: appId,
-      num: config.SIMILAR_APPS_LIMIT,
+      appId: appId
     });
     await sleep(config.DELAY_MS);
     return apps;
